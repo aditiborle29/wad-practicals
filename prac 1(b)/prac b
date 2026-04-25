@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>About Us</title> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <style> 
+    .hero { 
+      background: linear-gradient(to right, #007bff, #00c6ff); 
+      color: white; 
+      padding: 60px 20px; 
+      text-align: center; 
+    } 
+    .section { 
+      padding: 40px 20px; 
+    } 
+    .card { 
+      border-radius: 10px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    } 
+  </style> 
+</head> 
+<body> 
+  <!-- Hero Section --> 
+  <div class="hero"> 
+    <h1>About Our Dashboard</h1> 
+    <p>Simple & Smart Admin Management System</p> 
+  </div> 
+  <!-- About Project --> 
+  <div class="container section"> 
+    <h3>Project Overview</h3> 
+    <p> 
+      This Admin Dashboard is designed to manage products, customers, and orders efficiently. 
+      It provides a simple interface to track sales and order data. 
+    </p> 
+  </div> 
+  <!-- Features --> 
+  <div class="container section"> 
+    <h3>Features</h3> 
+    <div class="row"> 
+      <div class="col-md-4"> 
+        <div class="card p-3"> 
+          <h5>Product Management</h5> 
+          <p>Add and manage products easily.</p> 
+        </div> 
+      </div> 
+      <div class="col-md-4"> 
+        <div class="card p-3"> 
+          <h5>Order Tracking</h5> 
+          <p>View all orders with details.</p> 
+        </div> 
+      </div> 
+      <div class="col-md-4"> 
+        <div class="card p-3"> 
+          <h5>Customer Data</h5> 
+          <p>Store and manage customer information.</p> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+  <!-- Extra Features --> 
+  <div class="container section"> 
+    <div class="row"> 
+      <div class="col-md-6"> 
+        <div class="card p-3"> 
+          <h5>Sales Analytics</h5> 
+          <p>View total sales and graphical reports.</p> 
+        </div> 
+      </div> 
+      <div class="col-md-6"> 
+        <div class="card p-3"> 
+          <h5>Local Storage</h5> 
+          <p>All data is stored in browser storage.</p> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+  <!-- Footer --> 
+  <div class="text-center p-3 bg-dark text-white"> 
+    <p>© 2026 Admin Dashboard Project</p> 
+  </div> 
+</body> 
+</html> 
